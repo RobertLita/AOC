@@ -16,5 +16,8 @@ for line in data.split("\n"):
         for p in path:
             sizes[p] += int(line.split()[0])
 
-print(f"Part 1: {sum(s for s in sizes.values() if s <= 100_000)}")
-print(f"Part 2: {min(s for s in sizes.values() if s >= 30_000_000 - (70_000_000 - sizes['/']))}")
+print(sum(s for s in sizes.values() if s <= 100_000))
+# Your puzzle answer was 1583951.
+
+print(min(s for s in sizes.values() if s >= 30_000_000 - (70_000_000 - sizes['/'])))
+# Your puzzle answer was 214171.
