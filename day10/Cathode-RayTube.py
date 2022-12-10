@@ -11,7 +11,6 @@ def parseInput() -> list:
 def checkCycles():
     global s
     if cycles in [20, 60, 100, 140, 180, 220]:
-        print(cycles * x)
         s += cycles * x
 
 
