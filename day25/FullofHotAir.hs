@@ -5,9 +5,7 @@ main = do
 
        l <- readFile "input.txt"
        print . partOne $ l
-      Your puzzle answer was 2-02===-21---2002==0.
-       -- print . partTwo $ l
-      -- Your puzzle answer was 268912.
+      -- Your puzzle answer was 2-02===-21---2002==0.
 
 parse :: String -> [String]
 parse i = words i
